@@ -1,0 +1,26 @@
+.card {
+  box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 8px;
+  padding: 2.5rem;
+  background: var(--gray-600);
+
+  display: grid;
+  align-items: center;
+  justify-content: center;
+
+  width: 21.875rem;
+}
+.card:hover {
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.8);
+}
+
+.card > img {
+  height: 15rem;
+  justify-content: center;
+}
+
+.description {
+  padding: 0.125rem 1rem;
+  text-align: center;
+}
