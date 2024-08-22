@@ -1,0 +1,15 @@
+:root {
+  --white-snow: #ddd9ce;
+
+  --gray-800: #202024;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--white-snow);
+}
