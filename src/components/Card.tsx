@@ -14,7 +14,11 @@ interface CardProps {
 
 export function Card({ card }: CardProps) {
   return (
-    <NavLink to={`/${card.pokemonName}`} title="Detalhes do Pokemon">
+    <NavLink
+      to={`/${card.pokemonName}`}
+      title="Detalhes do Pokemon"
+      className={styles.navLink}
+    >
       <div className={styles.card}>
         <div className={styles.description}>
           <h3>
