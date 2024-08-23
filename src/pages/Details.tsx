@@ -5,6 +5,8 @@ import { useEffect, useState } from "react";
 import { getPokemonDetails } from "../api/getPokemonDetails";
 import { PokemonDetails } from "../models/pokemonDetails";
 
+import "./Details.module.css";
+
 export function Details() {
   const { name } = useParams<string>();
   console.log(name);
@@ -29,7 +31,7 @@ export function Details() {
   console.log(pokemonDetails);
 
   return (
-    <div>
+    <div className="details">
       <h1>Nome: {pokemonDetails?.name}</h1>
       <h2>Altura: {pokemonDetails?.height}</h2>
       <h2>Peso: {pokemonDetails?.weight}</h2>

@@ -28,8 +28,8 @@ export function Home() {
   return (
     <div>
       <main className={styles.wrapper}>
-        {pokemonList.map((card: CardType, index: number) => {
-          return <Card key={index} card={card} />;
+        {pokemonList.map((card: CardType) => {
+          return <Card key={card.url} card={card} />;
         })}
       </main>
     </div>

@@ -15,11 +15,6 @@
   box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.8);
 }
 
-.card > img {
-  height: 15rem;
-  justify-content: center;
-}
-
 .description {
   padding: 0.125rem 1rem;
   text-align: center;

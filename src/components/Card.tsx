@@ -16,8 +16,6 @@ export function Card({ card }: CardProps) {
   return (
     <NavLink to={`/${card.pokemonName}`} title="Detalhes do Pokemon">
       <div className={styles.card}>
-        {/* <img src={card.url} /> */}
-
         <div className={styles.description}>
           <h3>
             <b>{card.pokemonName}</b>
